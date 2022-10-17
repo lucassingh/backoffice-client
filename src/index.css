@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-p {
+    margin-bottom: 0 !important;
+    
+}
+
+.link-styles-brand {
+    color: white
+}
+
+.link-styles {
+    color: white
+}
+
+.containerForm {
+	display: flex;
+    padding: 30px 40px 30px 40px;
+	justify-content: center;
+    border: 1px solid #e9ecef;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 0px rgba(194,189,189,0.75);
+-webkit-box-shadow: 5px 5px 5px 0px rgba(194,189,189,0.75);
+-moz-box-shadow: 5px 5px 5px 0px rgba(194,189,189,0.75);
+}
+
+.imgServer {
+    border-radius: 15px;
+}
+
+.general-cont {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cont-img {
+    display: flex;
+    justify-content: center;
+}
+
+.font-size {
+    font-size: 36px
+}
+
+.cont {
+    margin-top: 30px;
+}
+
+.jumbotron {
+    padding: 2rem 2rem;
+}
+
+.custom-container {
+    margin-bottom: 100px;
+}
+
+.button-c {
+    width: 350px;
+}

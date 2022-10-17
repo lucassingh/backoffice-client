@@ -1,0 +1,55 @@
+.container {
+	width: calc(100% - 20px);
+	border: 1px solid #e9ecef;
+	border-radius: 2px;
+	padding: 10px 5px;
+	margin: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.input {
+	display: none;
+}
+
+audio {
+	width: 200px;
+	height: 40px;
+	border-radius: 2px;
+}
+
+.button {
+	outline: none;
+	font-size: 14px;
+	background: transparent;
+	padding: 10px;
+	border: 1px solid #007BFF;
+    color: #007BFF;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button:hover {
+    background-color: #007BFF;
+    color: white
+}
+
+.preview_img {
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
+}
+
+.progress_container {
+	width: 100px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.check_img {
+	width: 60px;
+	height: 60px;
+}
