@@ -54,7 +54,7 @@ const SongForm = () => {
         try {
             const url = process.env.REACT_APP_API_URL + "/songs"
 
-            if (captchaValue !== '') { }
+            /* if (captchaValue !== '') { } */
                 await axios.post(url, data);
                 setData(initialValue);
                 setDisplay(true);
